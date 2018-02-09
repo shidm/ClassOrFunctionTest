@@ -47,4 +47,8 @@ public class User {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    private String privateTest(String s){
+        return s+"传入";
+    }
 }
